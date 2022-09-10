@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a38833b4609ed4988c11f3ce3c92dd, type: 3}
+  m_Name: Oxito
+  m_EditorClassIdentifier: 
+  name: oxito
+  description: alone
+  frontSprite: {fileID: 21300000, guid: 69245b1cd071ae9429f08d13cf72e94e, type: 3}
+  backSprite: {fileID: 21300000, guid: 014203587dceca94b938271a43a23ff8, type: 3}
+  menuSprite: {fileID: 0}
+  type1: 1
+  type2: 17
+  maxHp: 45
+  attack: 32
+  defense: 45
+  spAttack: 84
+  spDefense: 97
+  speed: 67
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 725545bb1c71e344cb4475f045c6148f, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ee0824b8a4b58d244b3936bca9e73a26, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: bc0341628ed1a184d8e73e0048e7a6d3, type: 2}
+    level: 1

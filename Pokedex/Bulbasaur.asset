@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a38833b4609ed4988c11f3ce3c92dd, type: 3}
+  m_Name: Bulbasaur
+  m_EditorClassIdentifier: 
+  name: Bulbasaur
+  description: Bulbasaur can be seen napping in bright sunlight. There is a seed
+    on its back. By soaking up the sun's rays, the seed grows progressively larger.
+  frontSprite: {fileID: 21300000, guid: 4ffd26648cb679c41ac275d6fb9bb209, type: 3}
+  backSprite: {fileID: 21300000, guid: 74b1c7960f5732945b74e3ae2132b6b5, type: 3}
+  menuSprite: {fileID: 21300000, guid: e08b969a29011d54cbb87d831205e494, type: 3}
+  type1: 5
+  type2: 8
+  maxHp: 45
+  attack: 49
+  defense: 49
+  spAttack: 65
+  spDefense: 65
+  speed: 45
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 251fce25005c5054b80411c3a1822cb1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 8a9cb19b912094440bcb94fb1091c55b, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: 7c01c921ce06e5846977c5f42bdbd858, type: 2}
+    level: 13
+  - moveBase: {fileID: 11400000, guid: 2d18a3f1833dfad48a04c3a071f6d2a5, type: 2}
+    level: 5

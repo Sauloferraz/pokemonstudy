@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a38833b4609ed4988c11f3ce3c92dd, type: 3}
+  m_Name: Pikachu
+  m_EditorClassIdentifier: 
+  name: Pikachu
+  description: "Whenever Pikachu comes across something new, it blasts it with a
+    jolt of electricity. If you come across a blackened berry, it's evidence that
+    this Pok\xE9mon mistook the intensity of its charge."
+  frontSprite: {fileID: 21300000, guid: 39989c10c830db1448da66ebb9a1fd2e, type: 3}
+  backSprite: {fileID: 21300000, guid: 4b1a2622c5ce8d04dbc0b1d30c3a744e, type: 3}
+  menuSprite: {fileID: 21300000, guid: f5874105cb0d1c34fa377d5ff88099cd, type: 3}
+  type1: 4
+  type2: 0
+  maxHp: 35
+  attack: 55
+  defense: 40
+  spAttack: 50
+  spDefense: 50
+  speed: 90
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: a251026311ed7fc489a3da88cf028e66, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b35d1c5f7a0ab884f891656b4182fd9b, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 74935dbc98e96da48bba60f61b9e482e, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: ff7d4883150ea3b43854d45da36c69f5, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: dd8521abbdfe71540a4956c1f4ce87c8, type: 2}
+    level: 5

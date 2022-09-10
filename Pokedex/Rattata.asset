@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a38833b4609ed4988c11f3ce3c92dd, type: 3}
+  m_Name: Rattata
+  m_EditorClassIdentifier: 
+  name: Rattata
+  description: "Rattata is cautious in the extreme. Even while it is asleep, it constantly
+    listens by moving its ears around. It is not picky about where it lives\u2014it
+    will make its nest anywhere."
+  frontSprite: {fileID: 21300000, guid: 2ad8112da24de95499dc2590ab145787, type: 3}
+  backSprite: {fileID: 21300000, guid: 4fddb72973e9a564fa9894f9901f72f7, type: 3}
+  menuSprite: {fileID: 21300000, guid: 4feedc5a76af916458730941ebb14f5b, type: 3}
+  type1: 1
+  type2: 0
+  maxHp: 30
+  attack: 56
+  defense: 35
+  spAttack: 25
+  spDefense: 35
+  speed: 72
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 251fce25005c5054b80411c3a1822cb1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 38f542dc918adbd4187522cb8f4bfa16, type: 2}
+    level: 1

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a38833b4609ed4988c11f3ce3c92dd, type: 3}
+  m_Name: Gengar
+  m_EditorClassIdentifier: 
+  name: Gengar
+  description: Sometimes, on a dark night, your shadow thrown by a streetlight will
+    suddenly and startlingly overtake you. It is actually a Gengar running past you,
+    pretending to be your shadow.
+  frontSprite: {fileID: 21300000, guid: 4cb4b1521d583744f8e27877673ea0c2, type: 3}
+  backSprite: {fileID: 21300000, guid: 603f8e70816c5dd4f8ad24e02c066aa1, type: 3}
+  menuSprite: {fileID: 21300000, guid: 586a68cfb01f0d64abfb958ec2877348, type: 3}
+  type1: 14
+  type2: 8
+  maxHp: 60
+  attack: 65
+  defense: 60
+  spAttack: 130
+  spDefense: 75
+  speed: 110
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: ac5766c9ddb160144abcc3d94b84c301, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c9ba962a7fb88294e8c980a26ca93088, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c6d92fc98969dad4985e21e936f461bf, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 059f84105eb4a6943b2ca18b219b594f, type: 2}
+    level: 1

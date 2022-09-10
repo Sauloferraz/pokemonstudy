@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a38833b4609ed4988c11f3ce3c92dd, type: 3}
+  m_Name: Blastoise
+  m_EditorClassIdentifier: 
+  name: Blastoise
+  description: Blastoise has water spouts that protrude from its shell. The water
+    spouts are very accurate. They can shoot bullets of water with enough accuracy
+    to strike empty cans from a distance of over 160 feet.
+  frontSprite: {fileID: 21300000, guid: 97edab59fbce1ab4ca167d3106b0e75a, type: 3}
+  backSprite: {fileID: 21300000, guid: 105536aee11006c40aebf3a0f43dfa3b, type: 3}
+  menuSprite: {fileID: 21300000, guid: 7f37b19edc19c4a479fe92e40cbfd3a8, type: 3}
+  type1: 3
+  type2: 0
+  maxHp: 79
+  attack: 83
+  defense: 100
+  spAttack: 85
+  spDefense: 105
+  speed: 78
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 251fce25005c5054b80411c3a1822cb1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 22a7e23d00d6fe749ab281ddc4e8e574, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 2515f1698ed86044eb1e22ac6ae69385, type: 2}
+    level: 1
